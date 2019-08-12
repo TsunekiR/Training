@@ -3,7 +3,7 @@ const ex = express();
 
 
 ex.get("/", function(req,res){
-    res.send("Hi little leandro!");
+    res.send("Try adding /about in the URL!");
 });
 
 ex.get("/about", function(req,res){
