@@ -2,7 +2,7 @@ const express = require("express");
 const ex = express();
 
 ex.get("/", function(req,res){
-    res.send("Thats the 2nd express training site");
+    res.send("Thats the 2nd express training site! Try adding a name to the URL!");
 })
 
 ex.get("/name/:name", function(req,res){
